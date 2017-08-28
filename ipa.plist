@@ -35,7 +35,7 @@
                <string>com.yy.enterprise.beautydemo</string>
                <!-- optional (software only) -->
                <key>bundle-version</key>
-               <string>178</string>
+               <string>185</string>
                <!-- required.the download kind.-->
                <key>kind</key>
                <string>software</string>
