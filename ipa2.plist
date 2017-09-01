@@ -32,10 +32,10 @@
            <dict>
                <!-- required -->
                <key>bundle-identifier</key>
-               <string>com.yy.enterprise.beautydemo</string>
+               <string>com.yy.enterprise.beautydemo.facedance</string>
                <!-- optional (software only) -->
                <key>bundle-version</key>
-               <string>186</string>
+               <string>189</string>
                <!-- required.the download kind.-->
                <key>kind</key>
                <string>software</string>
