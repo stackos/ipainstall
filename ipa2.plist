@@ -32,7 +32,7 @@
            <dict>
                <!-- required -->
                <key>bundle-identifier</key>
-               <string>com.yy.enterprise.beautydemo</string>
+               <string>com.yy.enterprise.beautydemo.facedance</string>
                <!-- optional (software only) -->
                <key>bundle-version</key>
                <string>189</string>
