@@ -3,10 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>ipa安装</title>
+    <script src="http://cdn.bootcss.com/blueimp-md5/1.1.0/js/md5.min.js"></script>
+    <script>
+        function checkCode() {
+            var code = document.getElementById("input").value;
+            if(md5(code) == "62506be34d574da4a0d158a67253ea99") {
+                document.getElementById("check").remove();
+
+                var a = document.createElement("a");
+                a.href = "itms-services://?action=download-manifest&url=https://stackos.github.io/ipainstall/ipa.plist";
+                a.innerText = "安装 吃货脸萌";
+
+                document.body.appendChild(a);
+            } else {
+                alert("邀请码错误");
+            }
+        }
+    </script>
 </head>
 <body style="font-size:100px;">
-    <a href="itms-services://?action=download-manifest&url=https://stackos.github.io/ipainstall/ipa.plist">
-        安装 吃货脸萌
-    </a>
+    <div id="check">
+        输入邀请码:
+        <br>
+        <input type="text" style="font-size:100px;" id="input">
+        <br>
+        <input type="button" value="确认" style="font-size:100px;" onclick="checkCode()">
+    </div>
 </body>
 </html>
