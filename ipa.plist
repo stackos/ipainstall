@@ -16,7 +16,7 @@
                    <string>software-package</string>
                     <!-- required.the URL of the file to download.-->
                    <key>url</key>
-                   <string>https://github.com/stackos/ipainstall/releases/download/194/ipa.ipa</string>
+                   <string>http://repo.yypm.com/dwbuild/mobile/ios/beautyfacedemo/beautyfacedemo-ios_foodgame_feature/20170925-198-r1799880/beautyfacedemo.ipa</string>
                </dict>
                <!-- display-image: the icon to display during download .-->
                <dict>
@@ -35,7 +35,7 @@
                <string>com.yy.enterprise.beautydemo.food</string>
                <!-- optional (software only) -->
                <key>bundle-version</key>
-               <string>194</string>
+               <string>198</string>
                <!-- required.the download kind.-->
                <key>kind</key>
                <string>software</string>
