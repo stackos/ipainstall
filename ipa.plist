@@ -16,7 +16,7 @@
                    <string>software-package</string>
                     <!-- required.the URL of the file to download.-->
                    <key>url</key>
-                   <string>http://repo.yypm.com/dwbuild/mobile/ios/beautyfacedemo/beautyfacedemo-ios_foodgame_feature/20170926-201-r1801896/beautyfacedemo.ipa</string>
+                   <string>http://repo.yypm.com/dwbuild/mobile/ios/beautyfacedemo/beautyfacedemo-ios_foodgame_feature/20170927-203-r1803662/beautyfacedemo.ipa</string>
                </dict>
                <!-- display-image: the icon to display during download .-->
                <dict>
@@ -35,7 +35,7 @@
                <string>com.yy.enterprise.beautydemo.food</string>
                <!-- optional (software only) -->
                <key>bundle-version</key>
-               <string>201</string>
+               <string>203</string>
                <!-- required.the download kind.-->
                <key>kind</key>
                <string>software</string>
