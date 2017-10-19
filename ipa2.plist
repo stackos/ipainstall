@@ -16,7 +16,7 @@
                    <string>software-package</string>
                     <!-- required.the URL of the file to download.-->
                    <key>url</key>
-                   <string>http://repo.yypm.com/dwbuild/mobile/ios/beautyfacedemo/beautyfacedemo-ios_facedancegame_feature/20170915-196-r1786407/beautyfacedemo.ipa</string>
+                   <string>http://repo.yypm.com/dwbuild/mobile/ios/beautyfacedemo/beautyfacedemo-ios_facedancegame_feature/20171019-214-r1825084/beautyfacedemo.ipa</string>
                </dict>
            </array><key>metadata</key>
            <dict>
@@ -25,7 +25,7 @@
                <string>com.yy.enterprise.beautydemo.facedance</string>
                <!-- optional (software only) -->
                <key>bundle-version</key>
-               <string>196</string>
+               <string>214</string>
                <!-- required.the download kind.-->
                <key>kind</key>
                <string>software</string>
